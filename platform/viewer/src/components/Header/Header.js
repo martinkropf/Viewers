@@ -66,7 +66,7 @@ function Header(props) {
   // ANTD -- Hamburger, Drawer, Menu
   return (
     <>
-      <div className="notification-bar">{t('INVESTIGATIONAL USE ONLY')}</div>
+      <div className="notification-bar">{t('ICTS Study Viewer')}</div>
       <div className={`entry-header ${home ? 'header-big' : ''}`}>
         <div className="header-left-box">
           {location && location.studyLink && (
@@ -94,7 +94,7 @@ function Header(props) {
         </div>
 
         <div className="header-menu">
-          <span className="research-use">{t('INVESTIGATIONAL USE ONLY')}</span>
+          <span className="research-use">{t('ICTS Study Viewer')}</span>
           <Dropdown title={t('Options')} list={options} align="right" />
         </div>
       </div>
